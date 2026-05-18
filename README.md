@@ -1,14 +1,13 @@
 # Pico 2 W Robot Car
 
-A compact Wi‑Fi robot car built from reused **ELEGOO Smart Robot Car Kit V4.0** chassis parts and new control electronics: a **Raspberry Pi Pico 2 W** and a **DRV8833** motor driver. This build reuses the ELEGOO base, motors, wheels, battery hardware, and chassis while replacing the original controller board.[cite:470][cite:456][cite:473]
-
+A compact Wi‑Fi robot car built from reused **ELEGOO Smart Robot Car Kit V4.0** chassis parts and new control electronics: a **Raspberry Pi Pico 2 W** and a **DRV8833** motor driver. This build reuses the ELEGOO base, motors, wheels, battery hardware, and chassis while replacing the original controller board.
 ## Parts
 
-- ELEGOO Smart Robot Car Kit V4.0 chassis, motors, wheels, and battery hardware.[cite:470][cite:473]
-- Raspberry Pi Pico 2 W.[cite:644][cite:646]
-- DRV8833 motor driver.[cite:642]
+- ELEGOO Smart Robot Car Kit V4.0 chassis, motors, wheels, and battery hardware.
+- Raspberry Pi Pico 2 W.
+- DRV8833 motor driver.
 - Jumper wires and breadboard / protoboard.
-- Optional servo on GP14 with separate 5 V power and common ground.[cite:609][cite:611]
+- Optional servo on GP14 with separate 5 V power and common ground.
 
 ## Wiring
 
