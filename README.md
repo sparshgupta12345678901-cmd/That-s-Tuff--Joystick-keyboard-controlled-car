@@ -22,9 +22,9 @@ A compact Wi‑Fi robot car built from reused **ELEGOO Smart Robot Car Kit V4.0*
 
 ### Rules
 
-- Battery positive goes to the DRV8833 motor supply, not to the Pico.[cite:642]
-- Pico ground, DRV8833 ground, and servo ground must be common.[cite:639][cite:642]
-- Servo power should come from a stable 5 V source; the Pico provides only the signal line.[cite:609][cite:611]
+- Battery positive goes to the DRV8833 motor supply, not to the Pico.
+- Pico ground, DRV8833 ground, and servo ground must be common.
+- Servo power should come from a stable 5 V source; the Pico provides only the signal line.
 
 ## Diagram
 
