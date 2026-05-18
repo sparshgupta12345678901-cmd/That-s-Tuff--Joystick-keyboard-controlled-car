@@ -45,50 +45,15 @@ flowchart LR
 
 - `firmware/CarPico4/CarPico4.ino` for the Pico.
 - `controller/nes_controller.py` for the PC controller.
-- Pico runs as a Wi‑Fi AP and accepts UDP commands such as `F`, `B`, `L`, `R`, `X`, and `S`.[cite:481][cite:486]
+- Pico runs as a Wi‑Fi AP and accepts UDP commands such as `F`, `B`, `L`, `R`, `X`, and `S`.
 
 ## Build notes
 
-1. Assemble the ELEGOO chassis and battery hardware.[cite:456][cite:473]
+1. Assemble the ELEGOO chassis and battery hardware.
 2. Mount the Pico 2 W and DRV8833 on the top deck.
 3. Wire the motors to the DRV8833.
 4. Wire GP16–GP19 from the Pico to the DRV8833.
 5. Tie all grounds together.
-6. Add the optional servo on GP14 with separate 5 V power.[cite:609][cite:611]
+6. Add the optional servo on GP14 with separate 5 V power.
 
-## Photos to include
 
-Put your pictures in `docs/images/` and reference them from the README using relative paths. Good photos to include:
-
-- Finished robot
-- Top-down wiring view
-- Bottom chassis view
-- Pico close-up
-- DRV8833 close-up
-- Servo wiring close-up
-- Battery path photo
-
-## GitHub formatting
-
-To keep the formatting on GitHub:
-
-- Save the file as **`README.md`** in the root of the repo.[cite:667]
-- Keep diagrams inside fenced code blocks labeled `mermaid`; GitHub renders Mermaid directly in README files.[cite:653][cite:654]
-- Store images inside the repo, for example `docs/images/top-view.jpg`, and link them with relative paths so they stay with the project.[cite:664][cite:667]
-- Standard Markdown tables, headings, bullet lists, code blocks, and inline HTML all render in GitHub README files.[cite:667]
-- GitHub itself renders Mermaid in repository Markdown, but GitHub Pages may need extra setup depending on your Pages stack.[cite:657][cite:659]
-
-### Example image syntax
-
-```md
-![Top view](docs/images/top-view.jpg)
-```
-
-### Example Mermaid syntax
-
-```md
-```mermaid
-flowchart LR
-  A[Pico 2 W] --> B[DRV8833]
-```
-```
